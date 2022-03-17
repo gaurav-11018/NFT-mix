@@ -1,0 +1,8 @@
+dependencies:
+  - OpenZeppelin/openzeppelin-contracts@3.0.0
+compiler:
+  solc:
+    remappings:
+      - '@openzeppelin=OpenZeppelin/openzeppelin-contracts@3.0.0'
+wallets:
+  from_key: ${PRIVATE_KEY}    
